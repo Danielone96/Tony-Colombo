@@ -1,0 +1,44 @@
+Comandi GIT Terminale Python Visual Studio
+
+“git init” = Inizializza Git
+
+“git add” =  Aggiunge un file al tracciamento (es. git add main.py)
+
+“git status”  = Controlla I file se sono stati modificati
+
+    “No commits yet” = Non sono state         fatte modifiche
+
+    I “commits” sono i Backups
+
+“git rm —cached”  = Rimuove i file
+
+“git rm —cached -r .” = rimuove tutti i file su Mac
+
+“git add .” = Aggiunge tutti i file
+
+“touch  .gitignore” = per creare un file in cui indicare quali altri file non bisogna aggiungere a git
+
+“.txt” = Tutti i file di testo
+
+“.” = Seleziona tutti i file
+
+“git commit -m "primo commit" = Crea un backup
+
+“Git config —global user.name” = Aggiunge un nome al profilo
+
+“Git config —global user.mail” = aggiunge una mail al profilo
+
+“Git log” = visualizza i commit disponibili
+
+“Git log —all” = visualizza tutti i commit
+
+“Git checkout” + codice alfanumerico/nome del commit = Ripristina il commit
+
+(Master)  = indica il primo backup
+“Git checkout master”
+
+“Git branch” = lista dei rami creati con i commit
+“Git branch …..” = creazione di un ramo
+
+"git remote add origin + link" per aggiungere il file al proprio git
+https://github.com/Danielone96/Test.git
